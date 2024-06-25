@@ -1,8 +1,7 @@
-include *.md
-include *.py
-recursive-include megaman *.py *.pyx *.pxd *.cc *.h *.mat *.png
-recursive-include doc *
-recursive-include tools *.py
-recursive-include examples *.py *.ipynb
-include Makefile
+include README.md
+include setup.py
 include LICENSE
+include pyproject.toml
+
+recursive-include tests/ **/*.py
+recursive-include src/megaman/ **/*.py

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "megaman"
+version = "0.1.0"
+description = ""
+authors = ["Octavian-Vlad Murad <muradoctavian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+scikit-learn = "1.5.0"
+setuptools = "^70.0.0"
+cython = "^3.0.10"
+h5py = "^3.11.0"
+matplotlib = "^3.9.0"
+plotly = "^5.22.0"
+tqdm = "^4.66.4"
+pyamg = {git = "https://github.com/pyamg/pyamg.git", rev = "e1fe54c93be1029c02ddcf84c2338a607b088703"}
+numpy = "1.26.4"
+scipy = "1.13.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
