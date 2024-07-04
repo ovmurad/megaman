@@ -37,7 +37,7 @@ def projected_volume(principal_space, intrinsic_dim, embedding_dim=None,
     embedding_dim = intrinsic_dim if embedding_dim is None else embedding_dim
 
     all_axes = np.array(list(combinations(
-        range(1, candidate_dim), embedding_dim-1)))
+        range(1, candidate_dim), embedding_dim-1)), dtype=int)
     all_axes = np.hstack([
         np.zeros((all_axes.shape[0], 1), dtype=all_axes.dtype), all_axes])
 

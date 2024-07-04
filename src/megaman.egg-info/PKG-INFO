@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: megaman
+Version: 0.1.0
+Summary: megaman: Manifold Learning for Millions of Points
+Home-page: https://github.com/mmp2/megaman
+Download-URL: https://github.com/mmp2/megaman
+Author: Marina Meila
+Author-email: mmp@stat.washington.delete_this.edu
+License: BSD 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+
+
+megaman: Manifold Learning for Millions of Points
+=================================================
+
+This repository contains a scalable implementation of several manifold learning
+algorithms, making use of FLANN for fast approximate nearest neighbors and
+PyAMG, LOBPCG, ARPACK, and other routines for fast matrix decompositions.
+
+For more information, visit https://github.com/mmp2/megaman
